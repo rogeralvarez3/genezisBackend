@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="cliente" targetNamespace="http://tempuri.org/cliente.xsd" xmlns:mstns="http://tempuri.org/cliente.xsd" xmlns="http://tempuri.org/cliente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="cliente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="cliente" msprop:Generator_UserDSName="cliente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vcliente" msprop:Generator_TableClassName="vclienteDataTable" msprop:Generator_TableVarName="tablevcliente" msprop:Generator_TablePropName="vcliente" msprop:Generator_RowDeletingName="vclienteRowDeleting" msprop:Generator_RowChangingName="vclienteRowChanging" msprop:Generator_RowEvHandlerName="vclienteRowChangeEventHandler" msprop:Generator_RowDeletedName="vclienteRowDeleted" msprop:Generator_UserTableName="vcliente" msprop:Generator_RowChangedName="vclienteRowChanged" msprop:Generator_RowEvArgName="vclienteRowChangeEvent" msprop:Generator_RowClassName="vclienteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono" type="xs:string" minOccurs="0" />
+              <xs:element name="dir" msprop:Generator_ColumnVarNameInTable="columndir" msprop:Generator_ColumnPropNameInRow="dir" msprop:Generator_ColumnPropNameInTable="dirColumn" msprop:Generator_UserColumnName="dir" type="xs:string" minOccurs="0" />
+              <xs:element name="iden" msprop:Generator_ColumnVarNameInTable="columniden" msprop:Generator_ColumnPropNameInRow="iden" msprop:Generator_ColumnPropNameInTable="idenColumn" msprop:Generator_UserColumnName="iden" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="sucursal" msprop:Generator_ColumnVarNameInTable="columnsucursal" msprop:Generator_ColumnPropNameInRow="sucursal" msprop:Generator_ColumnPropNameInTable="sucursalColumn" msprop:Generator_UserColumnName="sucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="circun" msprop:Generator_ColumnVarNameInTable="columncircun" msprop:Generator_ColumnPropNameInRow="circun" msprop:Generator_ColumnPropNameInTable="circunColumn" msprop:Generator_UserColumnName="circun" type="xs:string" minOccurs="0" />
+              <xs:element name="zona" msprop:Generator_ColumnVarNameInTable="columnzona" msprop:Generator_ColumnPropNameInRow="zona" msprop:Generator_ColumnPropNameInTable="zonaColumn" msprop:Generator_UserColumnName="zona" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

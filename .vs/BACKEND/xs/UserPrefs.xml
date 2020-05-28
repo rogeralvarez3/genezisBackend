@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{2E51D727-EB54-49B0-B309-D936B6E3314B}|">
+  <MonoDevelop.Ide.ItemProperties.BACKEND PreferredExecutionTarget="/usr/bin/google-chrome-stable" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BACKEND/serviciocliente.asmx.cs">
+    <Files>
+      <File FileName="BACKEND/serviciocliente.asmx.cs" Line="168" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BACKEND" expanded="True">
+            <Node name="BACKEND" expanded="True">
+              <Node name="conexion" expanded="True" />
+              <Node name="serviciocliente.asmx" expanded="True">
+                <Node name="serviciocliente.asmx.cs" selected="True" />
+              </Node>
+              <Node name="servicioweb.asmx" expanded="True" />
+              <Node name="Web.config" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/media/benard/A096B9F796B9CDD2/PROYECTO_GENEZIS/BACKEND/BACKEND/serviciocliente.asmx.cs" relfile="BACKEND/serviciocliente.asmx.cs" line="310" column="1" />
+      <Breakpoint file="/media/benard/A096B9F796B9CDD2/PROYECTO_GENEZIS/BACKEND/BACKEND/serviciocliente.asmx.cs" relfile="BACKEND/serviciocliente.asmx.cs" line="168" column="1" />
+      <Breakpoint file="/media/benard/A096B9F796B9CDD2/PROYECTO_GENEZIS/BACKEND/BACKEND/serviciocliente.asmx.cs" relfile="BACKEND/serviciocliente.asmx.cs" line="169" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

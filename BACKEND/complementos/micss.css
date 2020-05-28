@@ -1,0 +1,325 @@
+﻿.modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 300px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0);
+    opacity: 1;
+}
+div.ajax__calendar_days table tr td {
+    padding-right: 0px;
+}
+
+div.ajax__calendar_body {
+    width: 200%;
+}
+
+div.ajax__calendar_container {
+    width: 200%;
+}
+.panelreporte {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    right: 0%;
+    background-color: #f4f4f4;
+    color:darkcyan;
+    font:bold 18px;
+    text-align:center;
+}
+
+/*menu principal*/
+.serviceBox {
+    text-align: center;
+    cursor:pointer;
+}
+
+    .serviceBox .service-icon1,
+    .serviceBox .service-icon2,
+    .serviceBox .service-icon3,
+    .serviceBox .service-icon4 {
+        width: 229px;
+        height: 229px;
+        line-height: 229px;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+
+        .serviceBox .service-icon1 strong,
+        .serviceBox .service-icon2 strong,
+        .serviceBox .service-icon3 strong,
+        .serviceBox .service-icon4 strong {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-width: 13px;
+            border-style: solid;
+            border-color: hsl(201, 94%, 74%) hsla(0, 0%, 0%, 0) hsla(0, 0%, 0%, 0) hsl(201, 94%, 74%);
+            border-radius: 400px;
+            transform: rotate(-45deg);
+            transition: all 0.5s ease 0s;
+            z-index: 1;
+        }
+
+        .serviceBox .service-icon1:hover strong,
+        .serviceBox .service-icon2:hover strong,
+        .serviceBox .service-icon3:hover strong,
+        .serviceBox .service-icon4:hover strong {
+            transform: rotate(315deg);
+            transition: all 0.5s ease 0s;
+        }
+
+        .serviceBox .service-icon1 span,
+        .serviceBox .service-icon2 span,
+        .serviceBox .service-icon3 span,
+        .serviceBox .service-icon4 span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-width: 13px;
+            border-style: solid;
+            border-color: hsl(0, 2%, 90%);
+            border-radius: 400px;
+            z-index: 0;
+        }
+
+    .serviceBox .icons,
+    .serviceBox .icons,
+    .serviceBox .icons,
+    .serviceBox .icons {
+        display: inline-block;
+    }
+
+        .serviceBox .icons i,
+        .serviceBox .icons i,
+        .serviceBox .icons i,
+        .serviceBox .icons i {
+            font-size: 70px;
+            margin-top: 75px;
+            transform: rotateY(0deg);
+            transition: all 0.5s ease 0s;
+        }
+
+    .serviceBox .service-icon1:hover .icons i,
+    .serviceBox .service-icon2:hover .icons i,
+    .serviceBox .service-icon3:hover .icons i,
+    .serviceBox .service-icon4:hover .icons i {
+        transform: rotateY(360deg);
+        transition: all 0.5s ease 0s;
+    }
+
+    .serviceBox .service-content p {
+        font-size: 13px;
+        font-family: "Arial",sans-serif;
+        color: hsl(0, 1%, 65%);
+        line-height: 24px;
+        margin: 30px 0;
+        padding: 0 20px;
+    }
+
+    .serviceBox .read {
+        background: hsl(0, 0%, 36%);
+        color: hsl(0, 0%, 100%);
+        font-size: 18px;
+        font-family: "Arial",sans-serif;
+        line-height: 24px;
+        text-transform: capitalize;
+        padding: 14px 32px 15px;
+        display: inline-block;
+        transition: all 0.2s ease 0s;
+    }
+
+        .serviceBox .read:hover {
+            background: #ec0303;
+            text-decoration: none;
+        }
+
+    .serviceBox .service-icon2 span,
+    .serviceBox .service-icon3 span,
+    .serviceBox .service-icon4 span {
+        border-color: hsl(0, 2%, 90%);
+    }
+
+    .serviceBox .service-icon2 strong {
+        border-color: hsla(0, 0%, 0%, 0) hsla(0, 0%, 0%, 0) hsl(0, 97%, 47%) hsl(0, 97%, 47%);
+    }
+
+    .serviceBox .service-icon3 strong {
+        border-color: hsl(201, 94%, 74%) hsl(201, 94%, 74%) hsla(0, 0%, 0%, 0) hsla(0, 0%, 0%, 0);
+    }
+
+    .serviceBox .service-icon4 strong {
+        border-color: hsla(0, 0%, 0%, 0) hsl(0, 97%, 47%) hsl(0, 97%, 47%) hsla(0, 0%, 0%, 0);
+    }
+
+@media screen and (max-width: 990px) {
+    .serviceBox {
+        margin-bottom: 35px;
+    }
+}
+
+/*LOGIN*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body,
+a {
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3B424D;
+}
+
+.main-wrap {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.login-main {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #68beff;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+    
+}
+
+    .login-main p {
+        text-indent: 10px;
+    }
+
+.box1 {
+    background: #cee4ff;
+    height: 40px;
+    text-indent: 10px;
+    width: 90%;
+    margin-bottom: 2px;
+    color: #3B424D;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.border1 {
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.border2 {
+    -webkit-border-radius: 0px 0 5px 5px;
+    -moz-border-radius: 0px 0 5px 5px;
+    -ms-border-radius: 0px 0 5px 5px;
+    -o-border-radius: 0px 0 5px 5px;
+    border-radius: 0px 0 5px 5px;
+}
+
+.send {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    right: 9px;
+    top: 20px;
+    border: 5px solid #68beff;
+    background: #ffffff;
+    font-size: 34px;
+    color: #1ac65e;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+    .send:hover {
+        animation: spin 0.3s ease-in-out;
+        -webkit-animation: spin 0.3s ease-in-out;
+        -moz-animation: spin 0.3s ease-in-out;
+        -ms-animation: spin 0.3s ease-in-out;
+        -o-animation: spin 0.3s ease-in-out;
+        color: #0094ff;
+        cursor: pointer;
+    }
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    from {
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -o-transform: rotate(360deg);
+    }
+}

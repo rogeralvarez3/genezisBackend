@@ -14,7 +14,7 @@ namespace BACKEND.conexion
             try
             {
            // port=3312;
-            con.ConnectionString = "Server =192.168.1.66;port=3312; Database = genezis;Uid =root; Pwd =root@; Convert Zero Datetime=True; ";
+            con.ConnectionString = "Server =192.168.1.66;port=3312; Database = genezis;Uid =root; Pwd =; Convert Zero Datetime=True; ";
             con.Open();
             }catch(Exception ex)
             {
